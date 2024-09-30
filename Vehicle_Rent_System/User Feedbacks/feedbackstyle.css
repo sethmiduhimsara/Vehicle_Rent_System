@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 100px;
+    padding: 0;
+    background-color: #074990;
+    color: #333; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+/* Form Styles */
+form {
+    background-color: #ffffff8b;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+form input[type="submit"][name="Submit"]:hover {
+    background-color: #0056b3;
+}
+
+form input[type="submit"][name="Delete"] {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"][name="Delete"]:hover {
+    background-color: #cc0000;
+}
+
+form input[type="submit"][name="Edit"] {
+    background-color: #29e40c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"][name="Edit"]:hover {
+    background-color: #1da508;
+    
+}
+
+
+
+
+
+

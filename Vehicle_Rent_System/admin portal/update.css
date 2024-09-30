@@ -1,0 +1,148 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Page background  */
+body {
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background: url(wallpaper3.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    /* transparent color  */
+    background-color: #8c94a77c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 550px;
+}
+
+.form-box h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    padding: 5px 0 30px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 15px;
+    background: #4e6a9eb1;
+
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0b0b0bc8;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.input-box input:focus {
+    border-color: #007BFF;
+}
+
+.input-box label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #a2a8b371;
+    padding: 0 5px;
+    color: #173879d5;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #1d2b37d3;
+
+}
+
+/* .input-box .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-box .icon ion-icon {
+    font-size: 20px;
+} */
+
+.first-last {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.NIC-DOB {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #b2b7bce6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color:#0d59c3b1;
+    color: white;
+}
+
+.gender {
+    margin-bottom: 15px;
+}
+
+.gender input {
+    margin-right: 5px;
+}
+
+.DOB {
+    display: flex;
+    align-items: center;
+}
+
+.DOB label {
+    padding: 0 5px 2px 0;
+    color: #173879d5;
+    font-weight: 700;
+}
+
+#email_error,
+#password_error {
+    font-size: 12px;
+    padding-top: 5px;
+}

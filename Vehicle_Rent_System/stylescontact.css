@@ -1,0 +1,94 @@
+
+body{
+    background-image: url(images/wallpaper3.0.jpg);
+    background-repeat: no-repeat;   /*
+    /* ?? */
+    background-size: cover;
+    /* ?? */
+    background-position: center;
+    
+}
+
+.contai1{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+  
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(3, 2, 91, 0.1);
+    margin-top: 130px;
+    height: 443px;
+    margin-left: 200px;
+}
+.icon-contact{
+    color: #fff;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #53ceff;
+}
+.imeg{
+    position: absolute;
+    width: 8px;
+    height: 30px;
+    margin-left: 902px;
+    margin-top: 130px;
+}
+.png{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.icon .fa-map-pin{
+    font-size: 40px;
+    margin-left:950px;
+    position: absolute;
+    margin-top: -89px;
+    color: #d01010;
+}
+body{
+    background-image: url(images/wallpaper3.jpg);
+}

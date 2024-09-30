@@ -1,0 +1,343 @@
+nav{
+    float: left;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 30px;
+   
+    background-image: linear-gradient(#1b4cef9a, #012733);
+}
+ 
+h1{
+    color: rgb(166, 163, 247);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.one{
+    color: rgb(122, 184, 255);
+    margin-left: 100px;
+    margin-top: -19px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.content{
+  color: rgba(246, 246, 246, 0.985);
+  margin-top: 14%;
+  margin-left: 20%;
+  max-width: 625px;
+  font-size: 30px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+
+.navbar{
+    
+    color: aliceblue;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 30px;
+
+}
+
+nav li{
+     display: inline-bloc;
+     list-style: none;
+    
+}
+
+nav li a{
+    
+    float: right;
+    color: aliceblue;
+    font-size: 18px;
+    word-spacing: 20px;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: rgba(232, 232, 232, 0.4);
+    border-radius: 6px;
+    transition: ease-in 0.3s;
+
+} 
+
+
+body{
+    background-image: url(wallpaper3.jpg);
+    background-repeat: no-repeat;   /*
+    /* ?? */
+    background-size: cover;
+    /* ?? */
+    background-position: center;
+    background-color: #53ceff;
+    
+}
+
+.contai1{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+  
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(3, 2, 91, 0.1);
+    margin-top: 130px;
+    height: 443px;
+    margin-left: 200px;
+}
+
+
+.icon-contact{
+    color: #ebebeb;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f6f4f4;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 18%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #53ceff;
+}
+.imeg{
+    position: absolute;
+    width: 8px;
+    height: 30px;
+    margin-left: 902px;
+    margin-top: 130px;
+}
+.png{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.icon .fa-map-pin{
+    font-size: 40px;
+    margin-left:950px;
+    position: absolute;
+    margin-top: -89px;
+    color: #f50000;
+}
+.contact2{
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 110px;
+    padding-left: 190px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .icon .fa-map-marker-alt{
+    color: #ffffff;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 96px;
+  }
+  .location{
+    font-size: 23px;
+    margin-left: 130px;
+    font-weight: bold;
+    color: #f5f5f5;
+
+  }
+  .text{
+    font-size: 16px;
+    margin-left: 11px;
+    margin-top: 12px;
+    color: #f8f6f6;
+
+  }
+
+  .icon .fa-phone{
+    color: #fdfdfd;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 94px;
+    margin-top: 30px;
+  }
+  .tele{
+    font-size: 23px;
+    margin-left: 130px;
+    margin-top: 31px;
+    font-weight: bold;
+    color: #f5f5f5;
+  }
+  .teleP{
+    font-size: 18px;
+    margin-left: 11px;
+    margin-top: 18px;
+    color: #fefefe;
+  }
+
+  .mail{
+    font-size: 23px;
+    margin-left: 132px;
+    margin-top: 31px;
+    font-weight: bold;
+    color: #f8f6f6;
+  }
+  .icon .fa-envelope{
+    color: #ffffff;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 94px;
+    margin-top: 30px;
+  }
+  .mailP{
+    font-size: 18px;
+    margin-left: 11px;
+    margin-top: 18px;
+    color: #f8f6f6;
+  }
+
+  .icon .fa-facebook{
+    color: #f8f8f8;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 94px;
+    margin-top: 50px;
+  }
+  .icon .fa-twitter{
+    color: #ffffff;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 150px;
+    margin-top: 50px;
+  }
+  .icon .fa-whatsapp{
+    color: #fcffff;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 206px;
+    margin-top: 50px;
+  }
+  .icon .fa-google{
+    color: #dfdfdf;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 262px;
+    margin-top: 50px;
+  }
+
+  .all{
+    padding-left: 100px;
+    padding-top: 40px;
+    color: #d00000;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+footer{
+  background-color: #0e0238;
+    
+}
+.footerContanier{
+    width:100%;
+    padding:2px;
+    margin-top: 60px;
+    
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1.2em;
+    color: #111;
+    opacity: 0.9;
+}
+
+
+/* hover effects on social media icons */
+.socialIcons a:hover{
+    background-color: #64c3f0;
+    transition: 0.5s;
+}
+.socialIcons a:hover{
+    color: aliceblue;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 05 px 0;
+    
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 10px;
+    text-decoration:underline;
+    font-size: 1em;
+    opacity:0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a{
+    opacity: 1;
+}
+.footerBottom{
+    padding: 5px;
+    text-align: center;
+}
+.footerBottom{
+    color: white;
+}
+  
+  

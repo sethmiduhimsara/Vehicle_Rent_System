@@ -1,0 +1,204 @@
+/* About us css */
+.about-1{
+    text-align: center;
+    background-color: rgb(225, 225, 225);
+    padding: 100px 200px 100px 200px; 
+    
+}
+
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.section2 .ourservice{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+
+}
+
+.section2 .experience{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+}
+body{
+    background-image: url(images/wallpaper3.jpg);
+    background-repeat: no-repeat;   /*
+    /* ?? */
+    background-size: cover;
+    /* ?? */
+    background-position: center;
+}
+
+/* Menu bar */
+nav{
+    float: left;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 30px;
+   
+    background-image: linear-gradient(#1b4cef9a, #012733);
+}
+ 
+
+.one{
+    color: rgb(122, 184, 255);
+    
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.navbar{
+    
+    color: aliceblue;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 30px;
+
+}
+
+nav li{
+     display: inline-bloc;
+     list-style: none;
+    
+}
+
+nav li a{
+    
+    float: right;
+    color: aliceblue;
+    font-size: 18px;
+    word-spacing: 20px;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: rgba(232, 232, 232, 0.4);
+    border-radius: 6px;
+    transition: ease-in 0.3s;
+
+} 
+
+
+button{
+    position: absolute;
+    display: inline-block;
+    font-size: 10px;
+    padding: 1px 6px;
+    margin: 1%;
+    margin-left:900px;
+    
+    color: rgb(21, 74, 74);
+     background-color:rgb(164, 44, 44); 
+    background-color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: ease 0.30s;
+}
+
+/*.container{
+    width: 100%;
+    min-height:90ch ;
+    
+    background-size: 100%;
+    background-position: center;
+    padding: 10px 10px;
+    background-size: cover;
+}*/
+
+.content{
+    color: rgba(0, 0, 0, 0.985);
+    margin-top: 14%;
+    margin-left: 7%;
+    max-width: 625px;
+    font-size: large;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+/* footer */
+/* Footer  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+footer{
+    background-color: #0e0238;
+}
+.footerContanier{
+    width:100%;
+    padding:2px;
+    padding-top: 10px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1.2em;
+    color: #111;
+    opacity: 0.9;
+}
+
+
+/* hover effects on social media icons */
+.socialIcons a:hover{
+    background-color: #64c3f0;
+    transition: 0.5s;
+}
+.socialIcons a:hover{
+    color: aliceblue;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 05 px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 10px;
+    text-decoration:underline;
+    font-size: 1em;
+    opacity:0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a{
+    opacity: 1;
+}
+.footerBottom{
+    padding: 5px;
+    text-align: center;
+}
+.footerBottom{
+    color: white;
+}
+

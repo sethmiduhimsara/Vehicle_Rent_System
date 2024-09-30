@@ -1,0 +1,104 @@
+/* payment page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(images/wallpaper3.jpg);
+    background-repeat: no-repeat;   /*
+    /* ?? */
+    background-size: cover;
+    /* ?? */
+    background-position: center;
+
+}
+
+.pcontainer{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;     
+    padding: 20px;
+    justify-content:space-around;
+    border-radius: 20px;
+
+    background: transparent;
+    /* ?? */
+    border: 2px solid rgba(3, 3, 3, 0.5);
+    /* ?? */
+    border-radius: 10px;
+    /* ?? */
+    backdrop-filter: blur(10px);
+    /* ?? */
+    box-shadow: 0 0 30px rgba(11, 11, 11, 0.5);
+}
+
+.container h1{
+    text-align: center;
+}
+
+.first-row{
+     display: flex;
+     
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+    background-color: rgb(33, 6, 155);
+    color: rgb(209, 235, 255);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+    width: 200px; 
+    font-size: 20px; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+}
+
+a:hover{
+    background-color: rgb(9, 112, 215);
+}
+
+.cards img{
+    width: 100px;
+}
+/* .confirm{
+    border-radius: 40px;
+} */

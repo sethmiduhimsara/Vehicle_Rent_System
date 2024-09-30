@@ -1,0 +1,100 @@
+/* styles.css */
+@import url('http://fonts.googleapis.com/css2?family=Poppins'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 100vh;
+    background: url(wallpaper3.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+h1 {
+    color: #ffffff;
+}
+
+.admin-portal {
+    padding:50px;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+button {
+    height: 40px;
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+    background: #827e7e;
+}
+
+button .edit {
+    background: #827e7e;
+}
+
+button .edit:hover, button .del:hover {
+    background-color: #0d59c3b1;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #141313;
+}
+
+button a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #f9f9f9;
+}
+
+.user-table th,
+.user-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.user-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.btn {
+    position: absolute; 
+    top: 30px; 
+    right: 70px; 
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: #cac3c3;
+}
